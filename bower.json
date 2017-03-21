@@ -1,0 +1,20 @@
+{
+  "name": "ak-smi-test",
+  "authors": [
+    "Austin Knobloch <austin.knobloch@samaritanministries.org>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "dashing": "^1.1.5"
+  }
+}

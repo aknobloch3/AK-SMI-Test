@@ -2404,5 +2404,8 @@ fieldset .has-warning .message li {
   ================================================== */
 /* Color Scale
   ================================================== */
+@font-face {
+  font-family: 'dashing-icons';
+  src: url("../../bower_components/dashing/font/dashing-icons.woff") format("woff"), url("../../font/dashing-icons.woff") format("woff"); }
 
 /*# sourceMappingURL=style.css.map */

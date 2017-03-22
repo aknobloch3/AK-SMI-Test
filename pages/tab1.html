@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- These previous two meta tags *must* come first in the head -->
+    <title>Dashing Template</title>
+
+    <!-- Working with CSS – Use this link if prefer to use the vanilla css, without any customization -->
+    <link rel="stylesheet" href="../bower_components/dashing/dashing.css">
+
+    <!-- Working with SCSS – Use this if you'd like to add any customization to the dashing modules. Note: The path and file name may differ for your project. -->
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+    <!-- Navigation Start -->
+    <nav class="app-menu expanded fixed">
+      <div class="app-context">
+        <div class="app-title">
+          <span>App Title</span>
+        </div>
+      </div>
+      </div>
+      <ul class="app-navigation">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="tab1.html" class="active">Tab 1</a></li>
+        <li><a href="http://www.samaritanministries.org" target="blank">
+          SMI Home
+          <i class="dashing-icon dashing-icon--new-tab flow-opposite"></i>
+        </a></li>
+      </ul>
+      <button class="button button--primary button--icon button--icon--main">
+        <i class="dashing-icon dashing-icon--add"></i>
+      </button>
+    </nav>
+    <!-- Navigation End -->
+
+    <div class="app-content app-context">
+    <!-- Add 'has-border' to add a rounded border to the container -->
+    <div class="table--container">
+      <!-- Add 'has-dividers' to add line dividers to each table row -->
+      <!-- Add 'has-hover' to add a hover state to each row -->
+      <!-- Add 'has-row-color' to add alternating colored rows -->
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Date</th>
+            <th>Amount</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Kelly Jameson</td>
+            <td>12/18/2012</td>
+            <td>$580.00</td>
+            <td class="text-color--green">Completed</td>
+          </tr>
+          <tr class="disabled">
+            <td>2</td>
+            <td>Michael Andrews</td>
+            <td>05/15/2015</td>
+            <td>$1,512.24</td>
+            <td class="text-color--red">Closed</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Teressa James</td>
+            <td>05/29/2015</td>
+            <td>$450.25</td>
+            <td class="text-color--green">Completed</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Matthew Hepner</td>
+            <td>10/06/2015</td>
+            <td>$2,600.00</td>
+            <td class="text-color--green">Completed</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>William Taylor</td>
+            <td>02/12/2016</td>
+            <td>$818.96</td>
+            <td class="text-color--gray">In Progress</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  </body>
+</html>

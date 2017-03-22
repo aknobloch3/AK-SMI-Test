@@ -10,15 +10,43 @@
     <link rel="stylesheet" href="bower_components/dashing/dashing.css">
 
     <!-- Working with SCSS – Use this if you'd like to add any customization to the dashing modules. Note: The path and file name may differ for your project. -->
-    <link rel="stylesheet" href="styles/application.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <!-- Navigation Start -->
-    <nav class="app-menu menu-color">
+    <nav class="app-menu expanded fixed">
       <div class="app-context">
-        <div class="app-title">App Title</div>
+        <div class="app-title">
+          <span>With Back Link</span>
+        </div>
       </div>
+      </div>
+      <ul class="app-navigation">
+        <li><a href="" class="active">Back Link</a></li>
+        <li><a href="">Breadcrumb</a></li>
+        <li><a href="" target="blank">
+          New Tab
+          <i class="dashing-icon dashing-icon--new-tab flow-opposite"></i>
+        </a></li>
+      </ul>
+      <button class="button button--primary button--icon button--icon--main">
+        <i class="dashing-icon dashing-icon--add"></i>
+      </button>
     </nav>
     <!-- Navigation End -->
+    <div class="app-content" style="max-width: 700px; margin: 0 auto;">
+
+      <div class="card">
+        <div class="card--header">
+          <h3>This is a simple card</h3>
+        </div>
+
+        <div class="card--content">
+          <p class="remove-margin--top">Dashing Cards are used to contain and display any type of content.</p>
+          <p class="remove-margin--bottom">This is an example of a simple card. Its little markup makes it very convenient to use.</p>
+        </div>
+      </div>
+
+    </div>
   </body>
 </html>

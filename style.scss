@@ -1,3 +1,9 @@
-@import "/bower_components/dashing/sass/vendor/normalize";
-@import "/bower_components/dashing/sass/base/base";
-@import "/bower_components/dashing/sass/modules/modules";
+@import "bower_components/dashing/sass/vendor/normalize";
+@import "bower_components/dashing/sass/base/base";
+@import "styles/theme/theme";
+@import "bower_components/dashing/sass/modules/modules";
+
+@import "styles/base/base";
+@import "styles/layout/layout";
+@import "styles/modules/modules";
+@import "styles/state/state";
